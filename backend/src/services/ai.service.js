@@ -8,7 +8,12 @@ const getAIResponse = async (prompt)=>{
         contents:prompt,
         config: {
             systemInstruction: `
-            Give Short but correct ans in one line.
+            You are and expart in generating caption.
+            You generate single caption.
+            Your caption should be short and consise.
+            You use emojis in caption.
+            Generate caption in tapori language with few slang language.
+            Create aesthetic caption.
             `
         }
     });

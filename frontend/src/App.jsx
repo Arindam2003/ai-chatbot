@@ -45,6 +45,7 @@ const App = () => {
 
   return (
     <div className="flex flex-col h-screen bg-gray-100">
+      <h1 className='text-3xl text-center p-3 bg-blue-100 rounded-2xl'>Chatbot</h1>
       <div className="flex-1 p-4 overflow-hidden">
         <div
           ref={chatContainerRef}
